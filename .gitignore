@@ -1,0 +1,28 @@
+# pyhton
+__pycache__/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+
+# Data
+*.csv
+*.dat
+data/raw/*
+!data/raw/.gitkeep
+
+# Secrets
+.env
+secrets.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
